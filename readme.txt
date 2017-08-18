@@ -1,2 +1,2 @@
 git is a distributed version control
-git is a free sofeware
+git is adistributed  free sofeware
