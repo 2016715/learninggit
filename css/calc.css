@@ -1,0 +1,113 @@
+* {
+	padding: 0 ;
+	margin:0;
+}
+header {
+	background: green;
+}
+.head {
+	width: 1300px;
+	height: 100px;
+	margin:0 auto;
+	background: blue;
+}
+header section footer{
+	display: block;
+}
+section {
+	background: red;
+}
+/*BFC 利用overflow实现
+ 独立上下文*/
+.calc-container {
+	height: 530px;
+	width: 1000px;
+	margin: 0 auto;
+	background: orange;
+	padding:0 150px;
+	overflow: hidden;
+}
+.calc {
+	width: 300px;
+	height: 400px;
+	background: white;
+	margin:0 auto;
+	margin-top: 130px;
+	text-align: center;
+}
+
+.cahead {
+	font-weight: bold;
+	background: gray;
+	padding: 10px 10px;
+
+
+}
+/*answer show*/
+.cashow {
+	background: #e8cdcd;
+	width: 251px;
+	height: 85px;
+	margin:0 auto;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.cashow-answer {
+	width: 250px;
+	height: 50px;
+	background: #c5b4b4;
+	text-align: right;
+	font-size: 1em;
+
+
+}
+.cashow-input {
+	display: black;
+	background:#ab8d8d;
+	text-align: right;
+	    height: 33px;
+    display: block;
+    width: 248px;
+    border-color: transparent;
+    font-size: 16px;
+
+}
+
+/*button-group*/
+.cabutton-group {
+	background:purple;
+	padding-top:30px;
+
+}
+/*button style*/
+button {
+	width: 50px;
+	height: 40px;
+	margin:5px 5px;	
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+.equal {
+    height: 90px;
+    position: absolute;
+}
+.zero {
+	width: 117px;
+	margin-left: -60px;	
+}
+.red {
+	background: red;
+}
+
+footer {
+	background: gray;
+}
+.foot {
+	background: purple;
+	width:1000px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0 150px;
+}
